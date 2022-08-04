@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const { isAuthenticated } = require('../middlware/jwt.middleware');
 
 // routes/project.routes.js
 
